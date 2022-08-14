@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "Hash": "WdCS315Oq2PD/PaUKjD4NArJSdU1V/urVS2+LmXknT0=",
+  "Source": "WebApplicationTest",
+  "BasePath": "_content/WebApplicationTest",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebApplicationTest\\wwwroot",
+      "Source": "WebApplicationTest",
+      "ContentRoot": "A:\\Decktop\\Admin\\progiNEW\\WebApplicationTest\\WebApplicationTest\\wwwroot\\",
+      "BasePath": "_content/WebApplicationTest",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "A:\\Decktop\\Admin\\progiNEW\\WebApplicationTest\\WebApplicationTest\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebApplicationTest.styles.css",
+      "SourceId": "WebApplicationTest",
+      "SourceType": "Computed",
+      "ContentRoot": "A:\\Decktop\\Admin\\progiNEW\\WebApplicationTest\\WebApplicationTest\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/WebApplicationTest",
+      "RelativePath": "WebApplicationTest.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "A:\\Decktop\\Admin\\progiNEW\\WebApplicationTest\\WebApplicationTest\\obj\\Debug\\net6.0\\scopedcss\\bundle\\WebApplicationTest.styles.css"
+    },
+    {
+      "Identity": "A:\\Decktop\\Admin\\progiNEW\\WebApplicationTest\\WebApplicationTest\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplicationTest.bundle.scp.css",
+      "SourceId": "WebApplicationTest",
+      "SourceType": "Computed",
+      "ContentRoot": "A:\\Decktop\\Admin\\progiNEW\\WebApplicationTest\\WebApplicationTest\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/WebApplicationTest",
+      "RelativePath": "WebApplicationTest.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "A:\\Decktop\\Admin\\progiNEW\\WebApplicationTest\\WebApplicationTest\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplicationTest.bundle.scp.css"
+    },
+    {
+      "Identity": "A:\\Decktop\\Admin\\progiNEW\\WebApplicationTest\\WebApplicationTest\\wwwroot\\css\\style.css",
+      "SourceId": "WebApplicationTest",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\Decktop\\Admin\\progiNEW\\WebApplicationTest\\WebApplicationTest\\wwwroot\\",
+      "BasePath": "_content/WebApplicationTest",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "A:\\Decktop\\Admin\\progiNEW\\WebApplicationTest\\WebApplicationTest\\wwwroot\\js\\script.js",
+      "SourceId": "WebApplicationTest",
+      "SourceType": "Discovered",
+      "ContentRoot": "A:\\Decktop\\Admin\\progiNEW\\WebApplicationTest\\WebApplicationTest\\wwwroot\\",
+      "BasePath": "_content/WebApplicationTest",
+      "RelativePath": "js/script.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\script.js"
+    }
+  ]
+}

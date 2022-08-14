@@ -1,0 +1,21 @@
+﻿@model Order
+
+<div class="first_div">
+    <div class="glav2">Введите данные заказа</div>
+    @using(Html.BeginForm("AddOrder", "Home",FormMethod.Post)) {
+        <div class="input1">Город отправителя:</div> 
+        @Html.TextBoxFor(m => m.sender_city,"",new {@class="input_1", @type="text", @id="input1"})
+        <div class="input2">Адрес отправителя:</div>
+        @Html.TextBoxFor(m => m.sender_address,"",new {@class="input_2", @type="text", @id="input2"})
+        <div class="input3">Город получателя:</div>
+        @Html.TextBoxFor(m => m.recipient_city,"",new {@class="input_3", @type="text", @id="input3"})
+        <div class="input4">Адрес получателя:</div>
+        @Html.TextBoxFor(m => m.recipient_address,"",new {@class="input_4", @type="text", @id="input4"})  
+        <div class="input5">Вес груза (кг):</div>
+        @Html.TextBoxFor(m => m.weight,"",new {@class="input_5", @type="text", @id="input5"})
+        <div class="input6">Дата:</div>
+        @Html.TextBoxFor(m => m.date,"",new {@class="input_6", @type="date", @id="input6"})
+
+        <button id="butsub" type="submit" class="but">Добавить</button>
+    }
+</div>

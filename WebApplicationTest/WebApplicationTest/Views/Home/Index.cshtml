@@ -1,0 +1,38 @@
+﻿<div class="grid">
+    <div class="header">
+        <p class="glav">Заказы</p>
+    </div>
+    <div class=content>
+        <table class="table">
+            <thead>         
+                <tr>
+                    <th>Номер</th>
+                    <th>Город отправителя</th>
+                    <th>Адрес отправителя</th>
+                    <th>Город получателя</th>
+                    <th>Адрес получателя</th>
+                    <th>Вес (кг)</th>
+                    <th>Дата</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{
+                    foreach(var order in Model) {
+                            <tr>
+                                <td>@order.id</td>
+                                <td>@order.sender_city</td>
+                                <td>@order.sender_address</td>
+                                <td>@order.recipient_city</td>
+                                <td>@order.recipient_address</td>
+                                <td>@order.weight</td>
+                                <td>@order.date.ToString("dd/MM/yyyy")</td>
+                            </tr>
+                    }
+                }
+            </tbody>
+        </table>
+     </div>
+     <div class="foother">
+        <a href="Home/AddOrder"><button id="send_server" class="but2">Новый заказ</button></a>
+     </div>   
+</div> 
